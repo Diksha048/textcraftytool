@@ -5,15 +5,26 @@
     color: #1f2e2e;
     font-family: Lora;
 }
+body {
+  background-image: url("https://www.fabricsandpapers.com/media/catalog/product/cache/c0b803438b9e712e80c57ff8d1777590/a/i/airlane_blue.webp");
+}
 .input-text{
-    margin-bottom: 100px;
+    margin-bottom: 20px; 
     margin-left: auto;
     margin-right: auto;
     display: block;
-    justify-content: space-around;
-    height: 400px;
+    justify-content: space-between;
+    height: 300px;
     width: 1000px;
     padding-top: 5px;
+    border-radius: 25px;
+    border: 2px solid #1f2e2e;
+    background-color: transparent;
+}
+.result-text{
+  text-align: center;
+  color: #1f2e2e;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .button {
     display: inline-block;
@@ -27,7 +38,7 @@
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
+    margin: 100px;
     font-family: 'Times New Roman', Times, serif;
   }
   .button:hover{
