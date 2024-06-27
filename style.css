@@ -1,0 +1,56 @@
+.tool-title{
+    text-align: center;
+    text-shadow: 2px 2px 8px #669999;
+    color: #1f2e2e;
+}
+.input-text{
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: space-around;
+    height: 400px;
+    width: 1000px;
+    padding-top: 5px;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color:#669999;
+    border: none;
+    color: #1f2e2e;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .button:hover{
+    box-shadow: 0 10px 16px 0 #669999;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 20px;
+  }
+  .action-button{
+    margin-left: 90px;
+    margin-right: 40px;
+
+  }
