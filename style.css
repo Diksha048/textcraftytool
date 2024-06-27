@@ -6,7 +6,8 @@
     font-family: Lora;
 }
 body {
-  background-image: url("https://www.fabricsandpapers.com/media/catalog/product/cache/c0b803438b9e712e80c57ff8d1777590/a/i/airlane_blue.webp");
+  background-color: #f0f5f5;
+
 }
 .input-text{
     margin-bottom: 20px; 
